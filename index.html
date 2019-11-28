@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="utf-8"/>
+  <title>JSPartie1Ex5</title>
+</head>
+<body>
+  <form action="#" method="post">
+    <!-- création block formulaire -->
+    <fieldset class="calculation">
+      <!-- Liste ordonée -->
+      <ol>
+        <li>
+          <!-- label pour definir le nom de la première ligne -->
+          <label for="number1">Nombre 1 : </label>
+          <!-- imput pour le type et l'id -->
+          <input type="text" name="number1" placeholder="Premier nombre" id="number1"/>
+        </li>
+        <li>
+          <label for="number">Nombre 2 : </label>
+          <input type="text" name="number2" placeholder="Deuxième nombre" id="number2"/>
+        </li>
+      </ol>
+      <!-- Création bouton JS -->
+      <button type="submit" name="button" onclick="division()">Reste de la division</button>
+    </fieldset>
+  </form>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
